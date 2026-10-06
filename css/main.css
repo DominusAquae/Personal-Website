@@ -1,0 +1,9 @@
+:root{
+  --black_theme-back_ground-black: #272526
+}
+
+body{
+  background-color: var(--black_theme-back_ground-black);
+  color: white;
+}
+

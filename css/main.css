@@ -1,9 +1,17 @@
 :root{
-  --black_theme-back_ground-black: #272526
+  --black_theme-background_black: #272526;
+  --black_theme-text_white: #fff;
+  --black_theme-text_ancher: #c0b090;
 }
 
 body{
-  background-color: var(--black_theme-back_ground-black);
-  color: white;
+  background-color: var(--black_theme-background_black);
+  color: var(--black_theme-text_white);
+  max-width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
+a{
+  color: var(--black_theme-text_ancher); 
+}

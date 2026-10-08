@@ -1,17 +1,32 @@
-:root{
+:root {
   --black_theme-background_black: #272526;
   --black_theme-text_white: #fff;
   --black_theme-text_ancher: #c0b090;
 }
 
-body{
+body {
   background-color: var(--black_theme-background_black);
   color: var(--black_theme-text_white);
   max-width: 80%;
   padding-left: 10%;
   padding-right: 10%;
+  font-family: 'Roboto', sans-serif;
 }
 
-a{
+a {
   color: var(--black_theme-text_ancher); 
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th, td {
+  border: 1px solid #fff;
+  padding: 2px;
 }
